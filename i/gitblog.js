@@ -99,7 +99,7 @@ postShow=function(url){
 /* 配置项预处理 */
 
 if(!gitConfig.ssh)
-	return console.error('请设置 gitConfig.ssh 地址')
+	return console.error('git@github.com:keirosang/blog.git')
 
 gitConfig.url=gitConfig.ssh.match(/[\w\-_]+\/[\w\-_]+\.github\.io/i)+''
 
